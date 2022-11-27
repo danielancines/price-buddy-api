@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Y/nxDHUGTMivGGzVwQiYOcz2gKfRzOmPWMVMx3v+o+1cTJT6Lwrr0D5nXT6nhxh7jE/sxr+OajtNiGp1fT4wHg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\danie\\Documents\\code\\price-buddy-api\\PriceBuddy.Commons\\PriceBuddy.Utils.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\danie\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.0\\microsoft.aspnetcore.cryptography.internal.7.0.0.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.0\\microsoft.aspnetcore.cryptography.keyderivation.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
