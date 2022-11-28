@@ -16,4 +16,7 @@ public class PriceBuddyDbContext : DbContext
 
     public virtual DbSet<User> Users { get; set; }
     public virtual DbSet<Product> Products { get; set; }
+    public virtual DbSet<ProductPriceHistory> ProductsPricesHistories { get; set; }
+    public virtual DbSet<Store> Stores { get; set; }
+
 }

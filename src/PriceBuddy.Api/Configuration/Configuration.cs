@@ -56,7 +56,9 @@ public static class Configuration
     public static IServiceCollection ConfigureContexts(this IServiceCollection services, string user, string dbPwd)
     {
         services.AddDbContext<PriceBuddyDbContext>(options =>
-        options.UseSqlServer($"Data Source=192.168.0.169,1433;Initial Catalog=PriceBuddyDb;User ID={user};Password={dbPwd};Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"));
+        options
+        .UseLazyLoadingProxies()
+        .UseSqlServer($"Data Source=192.168.0.169,1433;Initial Catalog=PriceBuddyDb;User ID={user};Password={dbPwd};Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"));
 
         return services;
     }

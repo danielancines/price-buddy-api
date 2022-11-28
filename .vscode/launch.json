@@ -10,9 +10,10 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/PriceBuddy.Api/bin/Debug/net7.0/PriceBuddy.Api.dll",
+            "program": "${workspaceFolder}/src/PriceBuddy.Api/bin/Debug/net7.0/PriceBuddy.Api.dll",
+        //l/Documents/code/price-buddy-api/src/PriceBuddy.Api/bin/Debug/net7.0/PriceBuddy.Api.dll
             "args": [],
-            "cwd": "${workspaceFolder}/PriceBuddy.Api",
+            "cwd": "${workspaceFolder}/src/PriceBuddy.Api",
             "stopAtEntry": false,
             // Enable launching a web browser when ASP.NET Core starts. For more information: https://aka.ms/VSCode-CS-LaunchJson-WebBrowser
             "serverReadyAction": {

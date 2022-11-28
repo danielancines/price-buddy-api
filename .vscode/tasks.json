@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/PriceBuddy.Api/PriceBuddy.Api.csproj",
+                "${workspaceFolder}/src/PriceBuddy.Api/PriceBuddy.Api.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
