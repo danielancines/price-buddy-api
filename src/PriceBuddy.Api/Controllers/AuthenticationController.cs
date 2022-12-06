@@ -22,7 +22,7 @@ public class AuthenticationController
 
     [HttpPost]
     [AllowAnonymous]
-    public async Task<IResult> Authenticate(User userParameter)
+    public IResult Authenticate(User userParameter)
     {
         var user = this._userRepository.GetByLogin(userParameter.Login, CryptHelper.EncryptString(userParameter.Password));
         if (user == null)

@@ -24,7 +24,7 @@ namespace PriceBuddy.Api.Controllers
         }
 
         [HttpGet("{id}", Name = "GetProductById")]
-        public async Task<IResult> Get(Guid id)
+        public IResult Get(Guid id)
         {
             var product = this._productRepository.GetById(id);
             return product == null ? Results.NotFound() : Results.Ok(product);
